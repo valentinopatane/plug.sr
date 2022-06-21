@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/plug.sr/static/css/main.8a93bca8.css",
-    "main.js": "/plug.sr/static/js/main.1c0355f8.js",
+    "main.js": "/plug.sr/static/js/main.de5232e3.js",
     "static/media/about-video.mp4": "/plug.sr/static/media/about-video.0c486b195a9f4f1bae12.mp4",
     "static/media/y2mate.com - Drake x Nike NOCTA_1080p.mp4": "/plug.sr/static/media/y2mate.com - Drake x Nike NOCTA_1080p.84efa5e23bd2b37856b1.mp4",
     "static/media/4.png": "/plug.sr/static/media/4.60883337f764341e5119.png",
@@ -13,10 +13,10 @@
     "static/media/descarga.jpg": "/plug.sr/static/media/descarga.9a1195fba305cbac8fc4.jpg",
     "index.html": "/plug.sr/index.html",
     "main.8a93bca8.css.map": "/plug.sr/static/css/main.8a93bca8.css.map",
-    "main.1c0355f8.js.map": "/plug.sr/static/js/main.1c0355f8.js.map"
+    "main.de5232e3.js.map": "/plug.sr/static/js/main.de5232e3.js.map"
   },
   "entrypoints": [
     "static/css/main.8a93bca8.css",
-    "static/js/main.1c0355f8.js"
+    "static/js/main.de5232e3.js"
   ]
 }
