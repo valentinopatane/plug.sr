@@ -3,6 +3,7 @@
 Proyecto basado en un e-commerce de la marca de ropa NOCTA.
 
 ------Anotaciones: 
+
 a) Si se ingresa una route incorrecta en el navegador, llevará al usuario a un Error 404, que tendrá un link que redirecciona al home.
 
 b) Todos los productos pueden comprarse, con un máximo del número de stock(el cual es fijo)
