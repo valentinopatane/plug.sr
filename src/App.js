@@ -26,7 +26,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route exact path='/' element={<Home/>}/>
+          <Route exact path={'/plug.sr'} element={<Home/>}/>
           <Route exact path={'shop'} element={<Shop/>}/>
           <Route exact path={'/shop/item/:id'} element={<ItemDetailContainer/>}/>
           <Route exact path={'/category/:id'} element={<Categories/>}/>
