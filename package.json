@@ -2,7 +2,7 @@
   "name": "plugsr",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://valentinopatane.github.io/plug.sr/",
+  "homepage": "http://valentinopatane.github.io/plug.sr",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.8.1",
