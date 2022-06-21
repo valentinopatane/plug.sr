@@ -1,0 +1,10 @@
+*{
+  font-family: 'Saira Condensed', sans-serif;
+}
+body{
+  background-color: #0b0c0d;
+  width: 100%;
+}
+.particles{
+  z-index: -1000;
+}
