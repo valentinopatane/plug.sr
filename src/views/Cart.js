@@ -13,12 +13,12 @@ const Cart =()=>{
             {hasProduct ? (
                 <div className="goToShop_cart">
                     <h5>Cart is Empty</h5>
-                    <Link className="goTo_link" to={'/shop'}>Go to Shop</Link>
+                    <Link className="goTo_link" to={'/plug.sr/shop'}>Go to Shop</Link>
                 </div>
                 ) : (
                 <div className="body_cart">
                     <h2 style={{color:'#fff', marginTop:'120px'}}>Total: {total}$</h2>
-                    <Link className="goTo_link" to={'/checkout'}  id ="completeOrder"style={{marginBottom:'20px'}}>Complete Order</Link>
+                    <Link className="goTo_link" to={'/plug.sr/checkout'}  id ="completeOrder"style={{marginBottom:'20px'}}>Complete Order</Link>
                     <div className="cartList">
                         {products.map((product)=>{
                              return (
