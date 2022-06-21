@@ -8,7 +8,7 @@ function Navbar(){
         <>
             <nav>
                 <div className="titleNav">
-                    <Link to="/" style={{textDecoration:"none"}}><h2>plug.sr</h2></Link>
+                    <Link to="/" style={{textDecoration:"none"}}><h2 className="titleNavH2">plug.sr</h2></Link>
                 </div>
                 <ul className="aList">
                     <Link to="/shop">
