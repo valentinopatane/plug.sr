@@ -8,7 +8,7 @@ const ItemList = ({ items })=>{
             {items.map((item)=>{
                 return (
                     <div className="itemList_div" key={item.id}>
-                        <Link className="itemList_link" to={`../shop/item/${item.id}`}>
+                        <Link className="itemList_link" to={`../plug.sr/shop/item/${item.id}`}>
                             <Item item={item}></Item>
                         </Link>
                     </div>
