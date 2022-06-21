@@ -15,6 +15,7 @@ d) Diseño responsivo para dispositivos móviles.
 ------Librerías extra utilizadas:
 
 -Material UI: Utilizada para el componente Spinner.
+
 -ParticleJS: Utilizada para estilizar el home y el shop, colocando partículas que se interconectan de fondo.
 
 
