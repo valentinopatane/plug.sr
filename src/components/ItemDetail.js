@@ -32,8 +32,8 @@ const ItemDetail = ({ item }) => {
                   <ItemCount stock={item.stock} initial={0} onAdd={onAdd}/>
                   </div>
         ) : ( <div className="item_detail_text_button">
-                  <Link className="goTo_link" to={'/cart'}>Go to Cart</Link>
-                  <Link className="goTo_link" to={'/shop'}>Go to Shop</Link>
+                  <Link className="goTo_link" to={'/plug.sr/cart'}>Go to Cart</Link>
+                  <Link className="goTo_link" to={'/plug.sr/shop'}>Go to Shop</Link>
               </div>)
         } 
           </div>

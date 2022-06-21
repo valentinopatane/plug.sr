@@ -8,27 +8,27 @@ function Navbar(){
         <>
             <nav>
                 <div className="titleNav">
-                    <Link to="/" style={{textDecoration:"none"}}><h2 className="titleNavH2">plug.sr</h2></Link>
+                    <Link to="/plug.sr" style={{textDecoration:"none"}}><h2 className="titleNavH2">plug.sr</h2></Link>
                 </div>
                 <ul className="aList">
-                    <Link to="/shop">
+                    <Link to="/plug.sr/shop">
                         <li>
                             Store
                         </li>
                     </Link>
-                    <Link to="/archive">
+                    <Link to="/plug.sr/archive">
                         <li>
                             Archive
                         </li>
                     </Link>
-                    <Link to="/about">
+                    <Link to="/plug.sr/about">
                         <li>
                             About
                         </li>
                     </Link>
                 </ul>
                 <div className='cartingContainer'>
-                    <Link to="/cart"style={{marginTop: '5px',textDecoration:'none'}} >
+                    <Link to="/plug.sr/cart"style={{marginTop: '5px',textDecoration:'none'}} >
                         <CartWidget ></CartWidget>
                     </Link>
                 </div>

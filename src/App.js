@@ -27,13 +27,13 @@ function App() {
         <Navbar/>
         <Routes>
           <Route exact path={'/plug.sr'} element={<Home/>}/>
-          <Route exact path={'shop'} element={<Shop/>}/>
-          <Route exact path={'/shop/item/:id'} element={<ItemDetailContainer/>}/>
-          <Route exact path={'/category/:id'} element={<Categories/>}/>
-          <Route exact path={'/cart'} element={<Cart/>}/> 
-          <Route exact path={'/checkout'} element={<Checkout/>}/>
-          <Route exact path={'/archive'} element={<Archive/>}/>
-          <Route exact path={'/about'}element={<About/>}/>
+          <Route exact path={'/plug.sr/shop'} element={<Shop/>}/>
+          <Route exact path={'/plug.sr/shop/item/:id'} element={<ItemDetailContainer/>}/>
+          <Route exact path={'/plug.sr/category/:id'} element={<Categories/>}/>
+          <Route exact path={'/plug.sr/cart'} element={<Cart/>}/> 
+          <Route exact path={'/plug.sr/checkout'} element={<Checkout/>}/>
+          <Route exact path={'/plug.sr/archive'} element={<Archive/>}/>
+          <Route exact path={'/plug.sr/about'}element={<About/>}/>
           <Route path='*' element={<Error404/>}/>
         </Routes>
       </Router>

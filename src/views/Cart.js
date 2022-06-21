@@ -33,7 +33,7 @@ const Cart =()=>{
                             })}
                     </div>
                     <div style={{marginTop:'20px'}}>
-                        <Link className="goTo_link" to={'/shop'}>Go to Shop</Link>
+                        <Link className="goTo_link" to={'/plug.sr/shop'}>Go to Shop</Link>
                         <button className="goTo_link" onClick={()=>clearCart()} style={{marginLeft:'10px'}}>Clean Cart</button>
                     </div>
                 </div>
