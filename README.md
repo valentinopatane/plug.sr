@@ -23,3 +23,6 @@ d) Diseño responsivo para dispositivos móviles.
 
 Gracias por su tiempo, saludos! :)
 
+Check the page out!
+
+https://valentinopatane.github.io/plug.sr/
