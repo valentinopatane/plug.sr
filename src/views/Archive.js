@@ -8,17 +8,12 @@ import five from '../background/5.png'
 import six from '../background/6.png'
 //CSS
 import '../components/style.css'
-//BACKGROUND VIDEO 
-import sample from '../background/about-video.mp4';
 
 const Archive =()=>{
     return(
     <>
         <section style={{ overflow:'hidden', position:'relative', height:'max-content'}}>
             <div className='archive_cont'>
-                <video className='archive_cont_back' autoPlay loop muted>
-                    <source src={sample} type='video/mp4' />
-                </video>
                 <div className='archive_title'>
                     <h2>Season 2021</h2>
                 </div>
