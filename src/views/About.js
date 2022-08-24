@@ -7,6 +7,9 @@ const About = ()=>{
     <>  
     <section style={{ overflow:'hidden', position:'relative'}}>
         <div className='about_section'>
+                <video className='archive_cont_back' id='videoAbout' autoPlay loop muted>
+                    <source src={video} type='video/mp4' />
+                </video>
             <div className='about_description'>
                 <img src={logo} alt="logo"></img>
                 <p>
